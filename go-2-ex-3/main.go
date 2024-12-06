@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	// TODO: create a map called "modules"
+	modules := make(map[string]uint, 0)
 
 	fmt.Println("Modul 104:", modules[104])
 	fmt.Println("Modul 117:", modules[117])
